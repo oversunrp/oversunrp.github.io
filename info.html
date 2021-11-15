@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="css.css" type="text/css" media="all" />
+        <title>Cream Soft MB</title>
+    </head>
+    <body>
+      
+      <script type="text/javascript" charset="utf-8">//меню
+        var c = 0;
+function o(){
+if(c == 0){
+    var drop = document.getElementById("drop");
+    var i = document.getElementsByClassName("item_code345");
+    drop.style.height = i.length*60+"px";
+    c = 1;
+    }else {
+         var drop = document.getElementById("drop");
+    
+    drop.style.height = "0";
+    c = 0;
+    }
+}
+      </script>
+        <div class="top">
+            <div class="menu" onclick="o()">
+               <div class="cm">
+                   <div></div>
+                   <div></div>
+                   <div></div>
+               </div> 
+            </div>
+            <div class="logo">
+               Cream Soft Mobile
+            </div>
+        </div>
+        <div id="drop" class="dropdown">
+            <div class="item_code345">
+                <a href="#">Главня страница</a>
+            </div>
+            <div class="item_code345">
+                <a href="#">Информация</a>
+            </div>
+             <div class="item_code345">
+                <a href="#">Поддержка</a>
+            </div>
+            <div class="item_code345">
+                <a href="#">Купить чит</a>
+            </div>
+            <div class="item_code345">
+                <a href="#">Просмотр всех товаров </a>
+            </div>
+        </div>
+        
+        <div class="textpm">
+        <marquee>Весь софт что на сайте пренадлежит группе Cream Soft Mobile </marquee> 
+        </div>
+    </body>
+</html>
